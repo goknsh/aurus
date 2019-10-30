@@ -1,7 +1,60 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6208305a-2530-4ed3-b8bd-555be75db6b6" name="Default Changelist" comment="" />
+    <list default="true" id="6208305a-2530-4ed3-b8bd-555be75db6b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLight-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLight-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLightItalic-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLightItalic-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Light-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Light-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-LightItalic-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-LightItalic-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Thin-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Thin-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ThinItalic-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ThinItalic-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-italic.var.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-roman.var.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter.var.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/css/fonts/inter.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/css/tailwind.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/partials/footer.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/partials/header.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Akaanksh_Raj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Akaanksh_Raj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,15 +70,28 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1Sj6IgsniXE8EgVTiEOhQ7tJU7P" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Akaanksh Raj\Desktop\Code\aurus.ark.black\src" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Akaanksh Raj\Desktop\Code\aurus.ark.black\css" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -67,7 +133,10 @@
       <option name="presentableId" value="Default" />
       <updated>1572064580340</updated>
       <workItem from="1572064583535" duration="190000" />
-      <workItem from="1572292024153" duration="2557000" />
+      <workItem from="1572292024153" duration="6159000" />
+      <workItem from="1572299079097" duration="209000" />
+      <workItem from="1572365144333" duration="7143000" />
+      <workItem from="1572458893307" duration="51000" />
     </task>
     <servers />
   </component>
@@ -79,10 +148,15 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
 </project>
