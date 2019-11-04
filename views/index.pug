@@ -1,0 +1,22 @@
+extends layout
+
+block content
+    section.pt-4.pt-md-11
+        .container
+            .row.align-items-center
+                .col-12.col-md-5.col-lg-6.order-md-2
+                    img.img-fluid.mw-md-150.mw-lg-130.mb-6.mb-md-0(src="/images/home.svg")
+                .col-12.col-md-7.col-lg-6.order-md-1
+                    h1.display-3.text-center.text-md-left Setup your Discord Server in a Snap.
+                    p.lead.text-center.text-md-left.text-muted.mb-6.mb-lg-8 Easily setup a new server, make moderation easy and play mini-games.
+                    div.text-center.text-md-left
+                        a.btn.btn-light.mr-2(href="/docs/", role="button") Read Docs
+                        a.btn.btn-primary(href="https://discordapp.com/oauth2/authorize?client_id=" + CLIENT_ID + "&scope=bot", role="button") Add to Server &rarr;
+
+    section.py-8.py-md-11
+        .container
+            .row
+                .col-12.col-md-4
+                    .text-primary.mb-3
+                    h3 Setup with Templates
+                    p.text-muted.mb-6.mb-md-0 Use templates created by the community to easily setup your sever using out bot.

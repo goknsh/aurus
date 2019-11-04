@@ -2,58 +2,123 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6208305a-2530-4ed3-b8bd-555be75db6b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Black.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Black.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-BlackItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-BlackItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Bold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Bold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-BoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-BoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLight-BETA.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLight-BETA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLightItalic-BETA.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLightItalic-BETA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Italic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Italic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Light-BETA.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Light-BETA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-LightItalic-BETA.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-LightItalic-BETA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Medium.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Medium.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-MediumItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-MediumItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Regular.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBold.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBold.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBoldItalic.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBoldItalic.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Thin-BETA.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-Thin-BETA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ThinItalic-BETA.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-ThinItalic-BETA.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-italic.var.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter-roman.var.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/Inter.var.woff2" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/css/fonts/inter.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/css/tailwind.scss" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/partials/footer.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/partials/header.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tailwind.config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/commands/beep.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/commands/help.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/commands/ping.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/start.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/setup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascripts/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascripts/bootstrap.bundle.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascripts/bootstrap.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascripts/bootstrap.min.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascripts/jquery.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/bootstrap.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Black.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Black.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-BlackItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-BlackItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraLight-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraLight-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraLightItalic-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraLightItalic-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Light-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Light-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-LightItalic-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-LightItalic-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-SemiBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Thin-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Thin-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ThinItalic-BETA.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ThinItalic-BETA.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-italic.var.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-roman.var.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/fonts/Inter.var.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/style.sass" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample.env" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/error.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Akaanksh_Raj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Akaanksh_Raj.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Black.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-BlackItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-BlackItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraBoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLight-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLight-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLightItalic-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-ExtraLightItalic-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Light-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Light-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-LightItalic-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-LightItalic-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-MediumItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-SemiBoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Thin-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-Thin-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-ThinItalic-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-ThinItalic-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-italic.var.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter-roman.var.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/Inter.var.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/css/fonts/inter.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/fonts/inter.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/css/tailwind.scss" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/partials/footer.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/partials/header.pug" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tailwind.config.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -65,6 +130,9 @@
     <execution>
       <executable />
     </execution>
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="aurus.ark.black" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -78,15 +146,20 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black" />
+      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views" />
+      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views\errors" />
       <recent name="C:\Users\Akaanksh Raj\Desktop\Code\aurus.ark.black\src" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -136,7 +209,17 @@
       <workItem from="1572292024153" duration="6159000" />
       <workItem from="1572299079097" duration="209000" />
       <workItem from="1572365144333" duration="7143000" />
-      <workItem from="1572458893307" duration="51000" />
+      <workItem from="1572458893307" duration="1070000" />
+      <workItem from="1572560215606" duration="27000" />
+      <workItem from="1572560325057" duration="69000" />
+      <workItem from="1572560446235" duration="4295000" />
+      <workItem from="1572621382900" duration="8351000" />
+      <workItem from="1572635847813" duration="143000" />
+      <workItem from="1572743721491" duration="1970000" />
+      <workItem from="1572745739964" duration="847000" />
+      <workItem from="1572755473422" duration="9327000" />
+      <workItem from="1572849372181" duration="90000" />
+      <workItem from="1572872765576" duration="8410000" />
     </task>
     <servers />
   </component>
