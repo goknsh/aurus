@@ -1,0 +1,20 @@
+#!/usr/bin/env node
+
+/**
+ * Module dependencies.
+ */
+
+
+const sqlite3 = require("sqlite3").verbose();
+const db = new sqlite3.Database("./bot/database.sqlite", err => {
+	if (err) {
+		return console.error(`Error while opening database to add guild to database:\n\tMessage: ${err.message}`);
+	}
+	console.log("Successfully connected to database")
+});
+db.run(`CREATE TABLE IF NOT EXISTS guilds(id text, prefix text)`, err => {
+	if (err) {
+		return console.error(`Error while creating guilds table:\n\tMessage: ${err.message}`);
+	}
+	console.log("Successfully created guilds table")
+});

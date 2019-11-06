@@ -2,6 +2,7 @@ const start = () => {
 	require("dotenv").config();
 	const fs = require("fs");
 	const Discord = require("discord.js");
+	const sqlite3 = require("sqlite3").verbose();
 	const prefix = "!";
 
 	// create new discord client
@@ -19,8 +20,10 @@ const start = () => {
 
 	// triggers after bot has logged in
 	client.once("ready", () => {
-		client.user.setActivity("for your messages", { type: "WATCHING" });
 		console.log("Bot is ready to go.");
+		client.user.setActivity("for your messages", { type: "WATCHING" }).catch(error => {
+			console.error(error);
+		});
 	});
 
 	// listen for messages
@@ -32,6 +35,7 @@ const start = () => {
 
 		const command = client.commands.get(commandName)
 			|| client.commands.find(cmd => cmd.aliases && cmd.aliases.includes(commandName));
+
 
 		if (!command) return;
 
@@ -76,6 +80,34 @@ const start = () => {
 			message.reply("There was an error trying to execute that command. We've recorded the error and will fix it soon.");
 		}
 
+	});
+
+	client.on("guildCreate", guild => {
+		let db = new sqlite3.Database("./bot/database.sqlite", err => {
+			if (err) {
+				return console.error(err);
+			}
+		});
+		db.run(`INSERT INTO guilds(id, prefix) VALUES(?, ?)`, [guild.id, "!"], err => {
+			if (err) {
+				return console.error(`Error while adding guild to database:\n\tMessage: ${err.message}\n\tData:\n\t\tid: ${guild.id}\n\t\tprefix: !\n`);
+			}
+		});
+		db.close();
+	});
+
+	client.on("guildDelete", guild => {
+		let db = new sqlite3.Database("./bot/database.sqlite", err => {
+			if (err) {
+				return console.error(err);
+			}
+		});
+		db.run(`DELETE FROM guilds WHERE id = ?`, [guild.id], err => {
+			if (err) {
+				return console.error(`Error while deleting guild from database:\n\tMessage: ${err.message}\n\tData:\n\t\tid: ${guild.id}\n`);
+			}
+		});
+		db.close();
 	});
 
 	// login to discord with token

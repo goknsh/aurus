@@ -5,6 +5,7 @@
 	"main": "app.js",
 	"scripts": {
 		"start": "npx nodemon bin/www",
+		"setup": "node bin/setup",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -38,7 +39,8 @@
 		"dotenv": "^8.2.0",
 		"express": "~4.16.1",
 		"node-sass-middleware": "0.11.0",
-		"pug": "^2.0.4"
+		"pug": "^2.0.4",
+		"sqlite3": "^4.1.0"
 	},
 	"devDependencies": {
 		"@types/dotenv": "^8.2.0",
