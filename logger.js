@@ -47,6 +47,12 @@ const bot = new winston.createLogger({
 	format: winston.format.combine(winston.format.timestamp(), winston.format.json(), winston.format.colorize()),
 });
 
+if (process.env.NODE_ENV !== "production") {
+	// express.transports.push(new winston.transports.Console({ format: winston.format.combine(winston.format.colorize(), winston.format.simple()) }));
+	db.add(new winston.transports.Console({ format: winston.format.combine(winston.format.colorize(), winston.format.simple()) }));
+	bot.add(new winston.transports.Console({ format: winston.format.combine(winston.format.colorize(), winston.format.simple()) }));
+}
+
 module.exports = {
 	express,
 	db,

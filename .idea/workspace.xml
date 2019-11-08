@@ -2,21 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6208305a-2530-4ed3-b8bd-555be75db6b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/logger.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Akaanksh_Raj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Akaanksh_Raj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/setup" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/commands/beep.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/commands/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/help.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/commands/ping.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/ping.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/database.sqlite" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/start.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logger.js" beforeDir="false" afterPath="$PROJECT_DIR$/logger.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -160,7 +151,8 @@
       <workItem from="1572872765576" duration="18425000" />
       <workItem from="1573021091319" duration="2309000" />
       <workItem from="1573072600999" duration="4650000" />
-      <workItem from="1573171908256" duration="13481000" />
+      <workItem from="1573171908256" duration="14472000" />
+      <workItem from="1573205615041" duration="3969000" />
     </task>
     <servers />
   </component>

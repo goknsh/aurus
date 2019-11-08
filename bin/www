@@ -33,7 +33,7 @@ server.on("listening", onListening);
 /**
  * Start the bot.
  */
-bot.start();
+// bot.start();
 
 
 /**

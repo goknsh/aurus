@@ -1,4 +1,3 @@
-const prefix = "!";
 module.exports = {
 	name: "help",
 	description: "List all of my commands or info about a specific command.",
@@ -9,11 +8,16 @@ module.exports = {
 		const data = [];
 		const { commands } = message.client;
 
+		// our default prefix is a!
+		const prefix = "a!";
+
+		// if no args are present, list all commands
 		if (!args.length) {
 			data.push("Here's a list of all my commands:");
 			data.push(commands.map(command => command.name).join(", "));
 			data.push(`\nYou can send \`${prefix}help [command name]\` to get info on a specific command!`);
 
+			// send list of commands to invoker's dm
 			return message.author.send(data, { split: true })
 				.then(() => {
 					if (message.channel.type === "dm") return;
@@ -23,13 +27,17 @@ module.exports = {
 					message.reply("It seems like I can't DM you! Do you have DMs disabled?");
 				});
 		}
+
+		// args are present, check if command exists
 		const name = args[0].toLowerCase();
 		const command = commands.get(name) || commands.find(c => c.aliases && c.aliases.includes(name));
 
+		// command not found in list
 		if (!command) {
 			return message.reply("That's not a valid command!");
 		}
 
+		// everything checks out, send specific command help
 		data.push(`**Name:** ${command.name}`);
 
 		if (command.aliases) data.push(`**Aliases:** ${command.aliases.join(", ")}`);
