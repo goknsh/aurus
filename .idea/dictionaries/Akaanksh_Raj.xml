@@ -5,6 +5,7 @@
       <w>cooldown</w>
       <w>javascripts</w>
       <w>purgecss</w>
+      <w>sequelize</w>
     </words>
   </dictionary>
 </component>

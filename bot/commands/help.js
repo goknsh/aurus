@@ -3,8 +3,8 @@ module.exports = {
 	name: "help",
 	description: "List all of my commands or info about a specific command.",
 	aliases: ["commands"],
-	usage: "[command name]",
-	cooldown: 5,
+	argsUsage: "[command name]",
+	cooldown: 1,
 	execute(message, args) {
 		const data = [];
 		const { commands } = message.client;
@@ -27,19 +27,19 @@ module.exports = {
 		const command = commands.get(name) || commands.find(c => c.aliases && c.aliases.includes(name));
 
 		if (!command) {
-			return message.reply("that's not a valid command!");
+			return message.reply("That's not a valid command!");
 		}
 
 		data.push(`**Name:** ${command.name}`);
 
 		if (command.aliases) data.push(`**Aliases:** ${command.aliases.join(", ")}`);
 		if (command.description) data.push(`**Description:** ${command.description}`);
-		if (command.usage) data.push(`**Usage:** ${prefix}${command.name} ${command.usage}`);
+		if (command.argsUsage) data.push(`**Usage:** ${prefix}${command.name} ${command.argsUsage}`);
 
 		data.push(`**Cooldown:** ${command.cooldown || 3} second(s)`);
+		data.push(`**Required Permissions:** \`${command.permissions || "DEFAULT"}\``);
+		data.push(`**Limited to Servers Only:** ${(command.serverOnly) ? "Yes" : "No"}`);
 
-		message.channel.send(data, { split: true });
-
-
+		return message.channel.send(data, { split: true });
 	},
 };

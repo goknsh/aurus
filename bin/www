@@ -7,7 +7,7 @@
 const app = require("../app");
 const debug = require("debug")("app:server");
 const http = require("http");
-const startTheBot = require("../bot/start");
+const bot = require("../bot/start");
 
 /**
  * Get port from environment and store in Express.
@@ -33,7 +33,7 @@ server.on("listening", onListening);
 /**
  * Start the bot.
  */
-startTheBot();
+bot.start();
 
 
 /**

@@ -5,7 +5,6 @@
 	"main": "app.js",
 	"scripts": {
 		"start": "npx nodemon bin/www",
-		"setup": "node bin/setup",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
@@ -38,13 +37,17 @@
 		"discord.js": "^11.5.1",
 		"dotenv": "^8.2.0",
 		"express": "~4.16.1",
+		"express-winston": "^4.0.1",
 		"node-sass-middleware": "0.11.0",
 		"pug": "^2.0.4",
-		"sqlite3": "^4.1.0"
+		"sequelize": "^5.21.2",
+		"sqlite3": "^4.1.0",
+		"winston": "^3.2.1"
 	},
 	"devDependencies": {
 		"@types/dotenv": "^8.2.0",
 		"@types/express": "^4.17.1",
+		"@types/sequelize": "^4.28.6",
 		"nodemon": "^1.19.4"
 	}
 }

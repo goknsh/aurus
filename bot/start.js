@@ -2,32 +2,69 @@ const start = () => {
 	require("dotenv").config();
 	const fs = require("fs");
 	const Discord = require("discord.js");
-	const sqlite3 = require("sqlite3").verbose();
-	const prefix = "!";
+	const Sequelize = require("sequelize");
+	const logger = require("./../logger")
 
 	// create new discord client
 	const client = new Discord.Client();
 	client.commands = new Discord.Collection();
 
+	// connect to database
+	const sequelize = new Sequelize("database", process.env.DB_USER, process.env.DB_PASSWORD, {
+		host: "localhost",
+		dialect: "sqlite",
+		logging: (message) => logger.db.info(message),
+		storage: "bot/database.sqlite",
+	});
+
+	// define database structure
+	const database = sequelize.define("guilds", {
+		id: {
+			type: Sequelize.STRING,
+			unique: true,
+			allowNull: false,
+			primaryKey: true,
+		},
+		prefix: {
+			type: Sequelize.STRING,
+			allowNull: false,
+			defaultValue: "!",
+		},
+	}, {
+		timestamps: false,
+	});
+
+	const prefix = "!";
+
+
+	// fetch all command files
 	const commandFiles = fs.readdirSync("./bot/commands").filter(file => file.endsWith(".js"));
 
+	// set all commands
 	for (const file of commandFiles) {
 		const command = require(`./commands/${file}`);
 		client.commands.set(command.name, command);
 	}
 
+	// prepare for cooldowns
 	const cooldowns = new Discord.Collection();
 
 	// triggers after bot has logged in
 	client.once("ready", () => {
-		console.log("Bot is ready to go.");
-		client.user.setActivity("for your messages", { type: "WATCHING" }).catch(error => {
-			console.error(error);
+		logger.bot.info("Bot is ready to go.");
+		database.sync().then(() => {
+			logger.db.info("Database structure synced");
+			client.user.setActivity("for your messages", { type: "WATCHING" }).catch(error => {
+				logger.bot.error(error);
+			});
+		}).catch((error) => {
+			logger.db.error(error);
 		});
 	});
 
 	// listen for messages
 	client.on("message", message => {
+		// check if incoming message has required prefix
 		if (!message.content.startsWith(prefix) || message.author.bot) return;
 
 		const args = message.content.slice(prefix.length).split(/ +/);
@@ -43,11 +80,17 @@ const start = () => {
 			return message.reply("That command is invalid inside DMs; try another.");
 		}
 
+		if (message.channel.type !== "dm") {
+			if (!message.member.hasPermission(command.permissions)) {
+				return message.reply("You do not have sufficient permissions to execute that command.");
+			}
+		}
+
 		if (command.args && !args.length) {
 			let reply = `That command requires arguments, ${message.author}.`;
 
-			if (command.usage) {
-				reply += `\nThe proper usage would be: \`${prefix}${command.name} ${command.usage}\``;
+			if (command.argsUsage) {
+				reply += `\nThe proper usage would be: \`${prefix}${command.name} ${command.argsUsage}\``;
 			}
 
 			return message.channel.send(reply);
@@ -66,7 +109,7 @@ const start = () => {
 
 			if (now < expirationTime) {
 				const timeLeft = (expirationTime - now) / 1000;
-				return message.reply(`${message.author}, please wait ${timeLeft.toFixed(1)}s before using the \`${command.name}\` command.`);
+				return message.reply(`Please wait ${timeLeft.toFixed(1)}s before using the \`${command.name}\` command.`);
 			}
 		}
 
@@ -76,42 +119,35 @@ const start = () => {
 		try {
 			command.execute(message, args);
 		} catch (error) {
-			console.error(error);
+			logger.bot.error(error);
 			message.reply("There was an error trying to execute that command. We've recorded the error and will fix it soon.");
 		}
 
 	});
 
 	client.on("guildCreate", guild => {
-		let db = new sqlite3.Database("./bot/database.sqlite", err => {
-			if (err) {
-				return console.error(err);
-			}
+		database.create({
+			id: guild.id,
+			prefix: "!",
+		}).catch((error) => {
+			return logger.db.error(error);
 		});
-		db.run(`INSERT INTO guilds(id, prefix) VALUES(?, ?)`, [guild.id, "!"], err => {
-			if (err) {
-				return console.error(`Error while adding guild to database:\n\tMessage: ${err.message}\n\tData:\n\t\tid: ${guild.id}\n\t\tprefix: !\n`);
-			}
-		});
-		db.close();
 	});
 
 	client.on("guildDelete", guild => {
-		let db = new sqlite3.Database("./bot/database.sqlite", err => {
-			if (err) {
-				return console.error(err);
-			}
+		database.destroy({
+			where: {
+				id: guild.id,
+			},
+		}).catch((error) => {
+			return logger.db.error(error);
 		});
-		db.run(`DELETE FROM guilds WHERE id = ?`, [guild.id], err => {
-			if (err) {
-				return console.error(`Error while deleting guild from database:\n\tMessage: ${err.message}\n\tData:\n\t\tid: ${guild.id}\n`);
-			}
-		});
-		db.close();
 	});
 
 	// login to discord with token
 	client.login(process.env.TOKEN);
 };
 
-module.exports = start;
+module.exports = {
+	start
+};
