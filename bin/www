@@ -7,6 +7,11 @@
 const app = require("../app");
 const debug = require("debug")("app:server");
 const http = require("http");
+
+
+/**
+ * Start the bot.
+ */
 const bot = require("../bot/start");
 
 /**
@@ -29,11 +34,6 @@ const server = http.createServer(app);
 server.listen(port, () => { console.log(`Website has started on port ${port}.`) });
 server.on("error", onError);
 server.on("listening", onListening);
-
-/**
- * Start the bot.
- */
-// bot.start();
 
 
 /**
