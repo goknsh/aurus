@@ -36,6 +36,33 @@ const Guilds = database.define("guilds", {
 	timestamps: false,
 });
 
+const Reputations = database.define("reputation", {
+	id: {
+		type: Sequelize.STRING,
+		unique: true,
+		allowNull: false,
+		primaryKey: true,
+	},
+	upvotes: {
+		type: Sequelize.INTEGER,
+		allowNull: false,
+		defaultValue: 0,
+	},
+	downvotes: {
+		type: Sequelize.INTEGER,
+		allowNull: false,
+		defaultValue: 0,
+	},
+	createdAt: {
+		type: Sequelize.TIME,
+
+	},
+	updatedAt: {
+		type: Sequelize.TIME,
+	},
+
+});
+
 // fetch all command files
 const commandFiles = fs.readdirSync("./bot/commands").filter(file => file.endsWith(".js"));
 
@@ -126,7 +153,7 @@ client.on("message", message => {
 
 	// check if command is sent via dm if not check for permissions
 	if (message.channel.type !== "dm") {
-		if (!message.member.hasPermission(command.permissions)) {
+		if (!message.member.hasPermission(command.permissions || [])) {
 			return message.reply("You do not have sufficient permissions to execute that command.");
 		}
 	}
@@ -165,3 +192,8 @@ client.on("guildDelete", guild => {
 // login to discord with token
 client.login(process.env.TOKEN);
 
+module.exports = {
+	database,
+	Guilds,
+	Reputations,
+};

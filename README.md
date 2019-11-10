@@ -17,5 +17,5 @@ Server IDs:
 | args        	| boolean 	| Whether the command requires arguments                           	| false    	| false   	|
 | argsUsage   	| string  	| Example of how the arguments should be used                      	| false    	| null    	|
 | cooldown    	| integer 	| Number of seconds before command can be invoked again            	| false    	| 3       	|
-| permissions 	| array   	| Valid Discord permissions the author requires to execute command 	| false    	| null    	|
+| permissions 	| array   	| Valid Discord permissions the author requires to execute command 	| false    	| []    	|
 | serverOnly  	| boolean 	| Whether the command is limited to servers only                   	| false    	| false   	|
