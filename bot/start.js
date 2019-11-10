@@ -153,7 +153,7 @@ client.on("message", message => {
 
 	// check if command is sent via dm if not check for permissions
 	if (message.channel.type !== "dm") {
-		if (!message.member.hasPermission(command.permissions)) {
+		if (!message.member.hasPermission(command.permissions || [])) {
 			return message.reply("You do not have sufficient permissions to execute that command.");
 		}
 	}
