@@ -1,34 +1,105 @@
-// Layout of all the pages on this website
-// Blocks:
-//    `styles`    for stylesheets
-//    `content`   for body of the page
-//    `scripts`   for javascript files
-
 doctype html
 html
     head
+        meta(charset="utf-8")
+        meta(name="viewport", content="width=device-width, initial-scale=1, shrink-to-fit=no")
+
         title= title + " // Aurus"
-        link(rel='stylesheet', href='/stylesheets/bootstrap.css')
-        link(rel='stylesheet', href='/stylesheets/style.css')
+        link(rel="stylesheet", href="/fonts/Feather/feather.css")
+        link(rel="stylesheet", href="/stylesheets/theme.min.css")
+        link(rel="stylesheet", href="/stylesheets/style.css")
 
         block styles
 
         script(src="/javascripts/jquery.min.js")
-        script(src="/javascripts/bootstrap.min.js")
-    body
-        nav.navbar.navbar-expand-lg.navbar-light.bg-white.sticky-top
-            .container
-                a.navbar-brand(href="/") Aurus
+        script(src="/javascripts/bootstrap.bundle.min.js")
+        script(src="/javascripts/theme.min.js")
+    body.bg-light
+        nav.navbar.navbar-expand-lg.navbar-light.fixed-top.bg-white.border-bottom
+            a.navbar-brand(href="/") aurus.
+            button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarToggler", aria-controls="navbarToggler", aria-expanded="false", aria-label="Toggle navigation")
+                span.navbar-toggler-icon
+            div#navbarToggler.collapse.navbar-collapse
                 button.navbar-toggler(type="button", data-toggle="collapse", data-target="#navbarToggler", aria-controls="navbarToggler", aria-expanded="false", aria-label="Toggle navigation")
-                    span.navbar-toggler-icon
-                div#navbarToggler.collapse.navbar-collapse
-                    ul.navbar-nav.ml-auto
-                        li.nav-item(class=(active === "docs" ? "active" : undefined))
-                            a.nav-link(href="/docs/") Docs
-                        li.nav-item
-                            a.nav-link(href="https://github.com/goknsh/aurus", target="_blank") GitHub
-                    a.navbar-btn.btn.btn-primary.ml-auto(href="https://discordapp.com/oauth2/authorize?client_id=" + CLIENT_ID + "&scope=bot&permissions=8", role="button") Add to Server
+                    i.fe.fe-x
+                ul.navbar-nav.ml-auto
+                    li.nav-item.dropdown
+                        a.nav-link.dropdown-toggle#navbarDocs(href="#", data-toggle="dropdown", aria-haspopup="true", aria-expanded="true") Documentation
+                        .dropdown-menu.dropdown-menu-md(aria-labelledby="navbarDocs")
+                            .list-group.list-group-flush
+                                a.list-group-item(href="/docs/")
+                                    .icon.icon-sm.text-primary
+                                        img(src="/images/icons/duotone-icons/General/Clipboard.svg")
+                                    .ml-4
+                                        h6.font-weight-bold.text-uppercase.text-primary.mb-0 Introduction
+                                        p.font-size-sm.text-gray-700.mb-0 Get started on reading our documentation
+                                a.list-group-item(href="/docs/commands/")
+                                    .icon.icon-sm.text-primary
+                                        img(src="/images/icons/duotone-icons/Communication/Write.svg")
+                                    .ml-4
+                                        h6.font-weight-bold.text-uppercase.text-primary.mb-0 Commands
+                                        p.font-size-sm.text-gray-700.mb-0 Learn how commands work and what they do
+                                a.list-group-item(href="/docs/byob/")
+                                    .icon.icon-sm.text-primary
+                                        img(src="/images/icons/duotone-icons/Communication/Chat-smile.svg")
+                                    .ml-4
+                                        h6.font-weight-bold.text-uppercase.text-primary.mb-0 Bring your own bot
+                                        p.font-size-sm.text-gray-700.mb-0 Setup aurus on your own servers
+                                a.list-group-item(href="/docs/changelog")
+                                    .icon.icon-sm.text-primary
+                                        img(src="/images/icons/duotone-icons/Navigation/Up-right.svg")
+                                    .ml-4
+                                        h6.font-weight-bold.text-uppercase.text-primary.mb-0 Changelog
+                                        p.font-size-sm.text-gray-700.mb-0 Setup aurus on your own servers
+                                    span.badge.badge-pill.badge-primary-soft.ml-auto 1.0.0
+                    li.nav-item
+                        a.nav-link(href="https://github.com/goknsh/aurus", target="_blank") GitHub
+                a.navbar-btn.btn.btn-sm.btn-primary.lift.ml-auto(href="https://discordapp.com/oauth2/authorize?client_id=" + CLIENT_ID + "&scope=bot&permissions=8", role="button") Add to Server
 
         block content
+
+        footer.py-8.py-md-11.bg-gray-200
+            .container
+                .row
+                    .col-12.col-md-4.col-lg-3
+                        a.h3(href="/") aurus.
+                        p.text-gray-700.mb-2 A Discord bot.
+                    .col-6.col-md-4.col-lg-2
+                        h6.font-weight-bold.text-uppercase.text-gray-700 Features
+                        ul.list-unstyled.text-muted.mb-6.mb-md-8.mb-lg-0
+                            li.mb-1
+                                a.text-reset(href="#") Templates
+                            li.mb-1
+                                a.text-reset(href="#") MMR Tracker
+                            li.mb-1
+                                a.text-reset(href="#") Moderation
+                    .col-6.col-md-4.col-lg-2
+                        h6.font-weight-bold.text-uppercase.text-gray-700 Documentation
+                        ul.list-unstyled.text-muted.mb-6.mb-md-8.mb-lg-0
+                            li.mb-1
+                                a.text-reset(href="/docs/") Introduction
+                            li.mb-1
+                                a.text-reset(href="/docs/commands/") Commands
+                            li.mb-1
+                                a.text-reset(href="/docs/byob/") BYOB
+                            li.mb-1
+                                a.text-reset(href="/docs/changelog/") Changelog
+                    .col-6.col-md-4.offset-md-4.col-lg-2.offset-lg-0
+                        h6.font-weight-bold.text-uppercase.text-gray-700 Legal
+                        ul.list-unstyled.text-muted.mb-6.mb-md-8.mb-lg-0
+                            li.mb-1
+                                a.text-reset(href="/legal/terms-of-service") Terms of Service
+                            li.mb-1
+                                a.text-reset(href="/legal/privacy-policy") Privacy Policy
+                    .col-6.col-md-4.col-lg-2
+                        h6.font-weight-bold.text-uppercase.text-gray-700 aurus
+                        ul.list-unstyled.text-muted.mb-6.mb-md-8.mb-lg-0
+                            li.mb-1
+                                a.text-reset(href="https://github.com/goknsh/aurus") GitHub
+                            li.mb-1
+                                a.text-reset(href="#") Official Discord
+                            li.mb-1
+                                a.text-reset(href="#") Test Server
+
 
         block scripts

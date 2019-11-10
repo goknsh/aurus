@@ -2,7 +2,764 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6208305a-2530-4ed3-b8bd-555be75db6b6" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/fonts/Feather/feather.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Feather/fonts/Feather.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Feather/fonts/Feather.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/Feather/fonts/Feather.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Bold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Bold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-BoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-BoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Book.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Book.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-BookItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-BookItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-ExtraLight.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-ExtraLight.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-ExtraLightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-ExtraLightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Hairline.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Hairline.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-HairlineItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-HairlineItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Italic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Italic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Light.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Light.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-LightItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-LightItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Medium.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Medium.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-MediumItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-MediumItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-SemiBold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-SemiBold.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-SemiBoldItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-SemiBoldItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Thin.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-Thin.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-ThinItalic.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/fonts/HK Grotesk Pro/HKGroteskPro-ThinItalic.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Brassiere.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Cap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Crown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Dress.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Hanger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Hat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Panties.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Shirt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Shoes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Shorts.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Sneakers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Socks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Sun-glasses.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/T-Shirt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Clothes/Tie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Backspace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/CMD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Commit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Compiling.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Control.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Done-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Error-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Git#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Git#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Git#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Git#4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Info-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Left-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Loading.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Lock-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Lock-overturning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Option.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Puzzle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Question-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Right-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Settings#4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Shift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Spy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Stop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Terminal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Thunder-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Time-schedule.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Warning-1-circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Code/Warning-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Active-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Add-user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Address-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Adress-book#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Adress-book#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Call#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Chat#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Chat#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Chat#4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Chat#5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Chat#6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Chat-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Chat-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Chat-locked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Chat-smile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Clipboard-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Clipboard-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Contact#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Delete-user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Dial-numbers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Group-chat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Group.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Incoming-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Incoming-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Incoming-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Mail-@.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Mail-attachment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Mail-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Mail-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Mail-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Mail-locked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Mail-notification.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Mail-opened.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Mail-unocked.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Missed-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Outgoing-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Outgoing-call.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Outgoing-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/RSS.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Readed-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Reply-all.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Reply.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Safe-chat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Send.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Sending mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Sending.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Shield-thunder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Shield-user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Snoozed-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Spam.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Thumbtack.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Urgent-mail.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Communication/Write.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Baking-glove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Bowl.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Chef.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Cooking-book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Cooking-pot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Cutting board.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Dinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Dish.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Dishes.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Fork-spoon-knife.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Fork-spoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Fork.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Frying-pan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Grater.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Kitchen-scale.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Knife#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Knife#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Knife&amp;fork#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Knife&amp;fork#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Ladle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Rolling-pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Saucepan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Shovel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Sieve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Cooking/Spoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Adjust.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Anchor-center-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Anchor-center-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Anchor-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Anchor-left-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Anchor-left-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Anchor-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Anchor-right-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Anchor-right-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Anchor-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Arrows.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Bezier-curve.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Border.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Brush.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Bucket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Cap-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Cap-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Cap-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Circle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Color-profile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Color.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Component.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Crop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Difference.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Eraser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Flatten.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Flip-horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Flip-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Interselect.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Join-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Join-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Join-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Layers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Line.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Magic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Mask.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Patch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Pen&amp;ruller.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Pen-tool-vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Picker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Pixels.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Polygon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Position.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Rectangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Saturation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Select.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Sketch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Stamp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Substract.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Target.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Triangle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Union.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Zoom minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Design/Zoom plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Airpods.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Android.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Apple-Watch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Battery-charging.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Battery-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Battery-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Battery-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Bluetooth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/CPU#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/CPU#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Cardboard-vr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Cassete.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Diagnostics.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Display#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Display#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Display#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Gameboy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Gamepad#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Gamepad#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Generator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Hard-drive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Headphones.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Homepod.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Keyboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/LTE#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/LTE#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Laptop-macbook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Laptop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Mic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Midi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Mouse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Phone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Printer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Radio.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Router#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Router#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/SD-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Speaker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/TV#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/TV#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Tablet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/USB.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Usb-storage.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Video-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Watch#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Watch#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/Wi-fi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/iMac.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/iPhone-X.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/iPhone-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Devices/iPhone-x-back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Air-conditioning.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Blender.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Fan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Fridge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Gas-stove.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Hair-dryer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Highvoltage.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Iron.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Kettle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Mixer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Outlet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Range-hood.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Shutdown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Socket-eu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Socket-us.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Electric/Washer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Cloud-download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Cloud-upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Compilation.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Compiled-file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Deleted-file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Deleted-folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Downloaded file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Downloads-folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Export.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/File-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/File-done.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/File-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/File-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/File.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Folder-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Folder-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Folder-error.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Folder-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Folder-minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Folder-plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Folder-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Folder-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Folder-thunder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Group-folders.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Import.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Locked-folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Media-folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Media.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Pictures#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Pictures#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Protected-file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Selected-file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Upload-folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/Uploaded-file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Files/User-folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Beer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Bottle#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Bottle#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Bread.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Bucket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Burger.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Cake.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Carrot.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Cheese.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Chicken.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Coffee#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Coffee#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Cookie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Dinner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Fish.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/French Bread.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Glass-martini.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Ice-cream#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Ice-cream#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Miso-soup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Orange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Pizza.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Sushi.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Two-bottles.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Food/Wine.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Attachment#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Attachment#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Binocular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Clip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Cursor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Dislike.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Duplicate.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Edit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Expand-arrows.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Fire.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Half-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Half-star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Hidden.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Like.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Notification#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Notifications#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Other#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Other#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Sad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Save.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Scale.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Scissors.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Settings#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Settings-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Settings-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Shield-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Shield-disabled.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Shield-protected.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Size.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Smile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Thunder-move.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Thunder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Update.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/User.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/General/Visible.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Air-ballon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Alarm-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Armchair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Bag-chair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Bath.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Bed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Book-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Broom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Building.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Bulb#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Bulb#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Chair#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Chair#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Commode#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Commode#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Couch.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Cupboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Curtains.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Deer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Door-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Earth.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Fireplace.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Flashlight.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Flower#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Flower#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Flower#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Globe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Home-heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Key.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Ladder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Lamp#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Lamp#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Library.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Mailbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Mirror.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Picture.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Ruller.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Stairs.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Timer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Toilet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Towel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Water-mixer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Weight#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Weight#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Wood#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Wood#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Home/Wood-horse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-3d.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-4-blocks.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-arrange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-left-panel-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-left-panel-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-right-panel-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-right-panel-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-top-panel-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-top-panel-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-top-panel-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-top-panel-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-top-panel-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-top-panel-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Layout/Layout-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Map/Compass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Map/Direction#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Map/Direction#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Map/Location-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Map/Marker#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Map/Marker#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Map/Position.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Add-music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Airplay-video.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Airplay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Back.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Backward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/CD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/DVD.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Eject.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Equalizer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Media-library#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Media-library#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Media-library#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Movie-Lane #2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Movie-lane#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Music-cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Music-note.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Mute.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Next.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Playlist#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Playlist#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Rec.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Repeat-one.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Repeat.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Volume-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Volume-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Volume-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Volume-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Vynil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Media/Youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Angle-double-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Angle-double-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Angle-double-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Angle-double-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Angle-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Angle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Angle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Angle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-from-bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-from-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-from-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-from-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-to-bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-to-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-to-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-to-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrows-h.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Arrows-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Double-check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Down-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Down-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Down-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Exchange.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Left 3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Left-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Right 3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Right-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Route.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Sign-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Sign-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Up-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Up-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Up-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Up-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Navigation/Waiting.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/ATM.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Bag#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Bag#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Barcode-read.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Barcode-scan.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Barcode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Bitcoin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Box#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Box#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Box#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Calculator.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Cart#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Cart#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Cart#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Chart-bar#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Chart-bar#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Chart-bar#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Chart-line#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Chart-line#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Chart-pie.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Dollar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Euro.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Loader.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/MC.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Money.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Pound.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Price #1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Price #2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Rouble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Safe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Sale#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Sale#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Sort#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Sort#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Sort#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Ticket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Wallet#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Wallet#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Shopping/Wallet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Align-auto.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Align-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Align-justify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Align-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Align-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Article.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Bold.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Bullet-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Code.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Edit-text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Filter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Font.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/H1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/H2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Itallic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Paragraph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Quote#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Quote#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Redo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Strikethrough.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Text-height.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Text-width.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Underline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Text/Undo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Angle Grinder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Axe.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Brush.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Compass.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Hummer#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Hummer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Pantone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Road-Cone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Roller.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Roulette.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Screwdriver.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Shovel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Spatula.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Swiss-knife.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Tools/Tools.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Celcium.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Cloud#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Cloud#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Cloud-fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Cloud-sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Cloud-wind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Cloudy-night.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Cloudy.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Day-rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Fahrenheit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Moon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Night-fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Night-rain.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Rain#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Rain#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Rain#5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Rainbow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Snow#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Snow#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Snow#3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Snow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Storm.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Sun-fog.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Sun.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Suset#1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Suset#2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Temperature-empty.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Temperature-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Temperature-half.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Thunder-night.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Thunder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Umbrella.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/duotone-icons/Weather/Wind.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/social/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/social/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/social/pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/icons/social/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/reliable.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/angles/angle-bottom.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/angles/angle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/angles/angle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/angles/angle-top.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/blurs/blur-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/blurs/blur-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/blurs/blur-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/blurs/blur-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/curves/curve-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/curves/curve-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/curves/curve-3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/curves/curve-4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/curves/curve-5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/curves/curve-6.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/images/shapes/waves/wave-1.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/javascripts/theme.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/stylesheets/theme.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/docs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bin/www" beforeDir="false" afterPath="$PROJECT_DIR$/bin/www" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/bootstrap.sass" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Black.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Black.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-BlackItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-BlackItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Bold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Bold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-BoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-BoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraBoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraLight-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraLight-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraLightItalic-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ExtraLightItalic-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Italic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Italic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Light-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Light-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-LightItalic-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-LightItalic-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Medium.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Medium.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-MediumItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-MediumItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Regular.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Regular.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-SemiBold.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-SemiBold.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-SemiBoldItalic.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-SemiBoldItalic.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Thin-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-Thin-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ThinItalic-BETA.woff" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-ThinItalic-BETA.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-italic.var.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter-roman.var.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/Inter.var.woff2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/fonts/inter.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css.map" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.css.map" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.sass" beforeDir="false" afterPath="$PROJECT_DIR$/public/stylesheets/style.sass" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample.env" beforeDir="false" afterPath="$PROJECT_DIR$/sample.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/error.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +827,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.id" value="Tab-separated (TSV)_id" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/css" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/front-matter" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -81,8 +838,9 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black" />
       <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views" />
+      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\" />
+      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black" />
       <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views\errors" />
       <recent name="C:\Users\Akaanksh Raj\Desktop\Code\aurus.ark.black\src" />
     </key>
@@ -147,7 +905,8 @@
       <workItem from="1573021091319" duration="2309000" />
       <workItem from="1573072600999" duration="4650000" />
       <workItem from="1573171908256" duration="14472000" />
-      <workItem from="1573205615041" duration="4144000" />
+      <workItem from="1573205615041" duration="7554000" />
+      <workItem from="1573354252676" duration="13027000" />
     </task>
     <servers />
   </component>
