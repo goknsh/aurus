@@ -2,8 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6208305a-2530-4ed3-b8bd-555be75db6b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bot/commands/template.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/models/guilds.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/models/reputations.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/models/templates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/docs/commands.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/commands/ban.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/commands/clear.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/commands/help.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/commands/kick.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Akaanksh_Raj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Akaanksh_Raj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/commands/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/help.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/commands/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/template.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/start.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/docs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/docs/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/docs/layout.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -43,20 +57,6 @@
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
       </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="guilds: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="reputations: table" type="3d80ac25:SqliteImplModel$Table" />
-      </path>
     </expand>
     <select />
   </component>
@@ -90,7 +90,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="database.data.extractors.current.id" value="Tab-separated (TSV)_id" />
     <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/front-matter" />
+    <property name="last_opened_file_path" value="G:/My Drive/University/002 Fall 2019/ENGR 102 - Honors Engineering Lab I - Computation/Week 011" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.path.for.package.tslint" value="project" />
@@ -102,15 +102,15 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Akaanksh Raj\Desktop\Code\aurus.ark.black\css" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\routes\docs" />
       <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views" />
       <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\" />
       <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black" />
       <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views\errors" />
-      <recent name="C:\Users\Akaanksh Raj\Desktop\Code\aurus.ark.black\src" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Akaanksh Raj\Desktop\Code\aurus.ark.black\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -202,7 +202,9 @@
       <workItem from="1573171908256" duration="14472000" />
       <workItem from="1573205615041" duration="7554000" />
       <workItem from="1573354252676" duration="13027000" />
-      <workItem from="1573369208717" duration="221000" />
+      <workItem from="1573369208717" duration="1725000" />
+      <workItem from="1573376616142" duration="11464000" />
+      <workItem from="1573443258217" duration="768000" />
     </task>
     <servers />
   </component>

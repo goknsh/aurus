@@ -1,3 +1,5 @@
+
+
 module.exports = {
 	name: "help",
 	description: "List all of my commands or info about a specific command.",
@@ -5,11 +7,9 @@ module.exports = {
 	argsUsage: "[command name]",
 	cooldown: 1,
 	execute(message, args) {
+		const { prefix } = require("./../start");
 		const data = [];
 		const { commands } = message.client;
-
-		// our default prefix is a!
-		const prefix = "a!";
 
 		// if no args are present, list all commands
 		if (!args.length) {

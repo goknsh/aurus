@@ -6,7 +6,8 @@ const logger = require("./logger");
 
 // import routes
 const indexRouter = require("./routes");
-const docsRouter = require("./routes/docs");
+const docsRouter = require("./routes/docs/index");
+const commandRouter = require("./routes/docs/commands");
 
 const app = express();
 
@@ -33,6 +34,7 @@ app.use(express.static(path.join(__dirname, "public")));
 // setup router
 app.use("/", indexRouter);
 app.use("/docs/", docsRouter);
+app.use("/docs/commands/", commandRouter);
 
 // catch 404 error
 app.use((req, res, next) => {

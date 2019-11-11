@@ -1,5 +1,6 @@
 require("dotenv").config();
 const fs = require("fs");
+const path = require("path");
 const Discord = require("discord.js");
 const Sequelize = require("sequelize");
 const logger = require("./../logger");
@@ -13,55 +14,15 @@ const prefix = "a!";
 
 // connect to database
 const database = new Sequelize("database", process.env.DB_USER, process.env.DB_PASSWORD, {
-	host: "localhost",
 	dialect: "sqlite",
 	logging: (message) => logger.db.info(message),
 	storage: "bot/database.sqlite",
 });
 
 // define database structure
-const Guilds = database.define("guilds", {
-	id: {
-		type: Sequelize.STRING,
-		unique: true,
-		allowNull: false,
-		primaryKey: true,
-	},
-	prefix: {
-		type: Sequelize.STRING,
-		allowNull: false,
-		defaultValue: prefix,
-	},
-}, {
-	timestamps: false,
-});
-
-const Reputations = database.define("reputation", {
-	id: {
-		type: Sequelize.STRING,
-		unique: true,
-		allowNull: false,
-		primaryKey: true,
-	},
-	upvotes: {
-		type: Sequelize.INTEGER,
-		allowNull: false,
-		defaultValue: 0,
-	},
-	downvotes: {
-		type: Sequelize.INTEGER,
-		allowNull: false,
-		defaultValue: 0,
-	},
-	createdAt: {
-		type: Sequelize.TIME,
-
-	},
-	updatedAt: {
-		type: Sequelize.TIME,
-	},
-
-});
+const Guilds = database.import(path.join(__dirname, "models", "guilds.js"));
+const Reputations = database.import(path.join(__dirname, "models", "reputations.js"));
+const Templates = database.import(path.join(__dirname, "models", "templates.js"));
 
 // fetch all command files
 const commandFiles = fs.readdirSync("./bot/commands").filter(file => file.endsWith(".js"));
@@ -162,6 +123,7 @@ client.on("message", message => {
 	try {
 		command.execute(message, args);
 	} catch (error) {
+		console.log(error);
 		logger.bot.error(error);
 		return message.reply("There was an error trying to execute that command. We've recorded the error and will fix it soon.");
 	}
@@ -193,7 +155,5 @@ client.on("guildDelete", guild => {
 client.login(process.env.TOKEN);
 
 module.exports = {
-	database,
-	Guilds,
-	Reputations,
+	prefix,
 };
