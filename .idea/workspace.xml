@@ -2,22 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6208305a-2530-4ed3-b8bd-555be75db6b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/bot/models/guilds.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/models/reputations.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/models/templates.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/docs/commands.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/docs/commands/ban.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/docs/commands/clear.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/docs/commands/help.pug" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/docs/commands/kick.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/commands/clear.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/bot/commands/kick.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dictionaries/Akaanksh_Raj.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dictionaries/Akaanksh_Raj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/commands/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/help.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/commands/reputation.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/ban.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/commands/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/start.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/start.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/docs.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/docs/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/docs/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/docs/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/models/templates.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/models/templates.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sample.env" beforeDir="false" afterPath="$PROJECT_DIR$/sample.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -56,6 +52,13 @@
         <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="templates: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
@@ -204,7 +207,8 @@
       <workItem from="1573354252676" duration="13027000" />
       <workItem from="1573369208717" duration="1725000" />
       <workItem from="1573376616142" duration="11464000" />
-      <workItem from="1573443258217" duration="768000" />
+      <workItem from="1573443258217" duration="4103000" />
+      <workItem from="1573466094693" duration="30589000" />
     </task>
     <servers />
   </component>

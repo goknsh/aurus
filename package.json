@@ -34,7 +34,7 @@
 	"dependencies": {
 		"bootstrap": "^4.3.1",
 		"debug": "~2.6.9",
-		"discord.js": "^11.5.1",
+		"discord.js": "git://github.com/hydrabolt/discord.js.git#master",
 		"dotenv": "^8.2.0",
 		"express": "~4.16.1",
 		"express-winston": "^4.0.1",

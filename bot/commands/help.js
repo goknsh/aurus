@@ -1,5 +1,3 @@
-
-
 module.exports = {
 	name: "help",
 	description: "List all of my commands or info about a specific command.",
@@ -42,7 +40,7 @@ module.exports = {
 
 		if (command.aliases) data.push(`**Aliases:** ${command.aliases.join(", ")}`);
 		if (command.description) data.push(`**Description:** ${command.description}`);
-		if (command.argsUsage) data.push(`**Usage:** ${prefix}${command.name} ${command.argsUsage}`);
+		if (command.argsUsage) data.push(`**Usage:** \`${prefix}${command.name} ${command.argsUsage}\``);
 
 		data.push(`**Cooldown:** ${command.cooldown || 3} second(s)`);
 		data.push(`**Required Permissions:** \`${command.permissions || "DEFAULT"}\``);

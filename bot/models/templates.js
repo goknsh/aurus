@@ -7,9 +7,36 @@ module.exports = (sequelize, DataTypes) => {
 			primaryKey: true,
 			minLength: 6,
 		},
-		guildId: {
+		name: {
 			type: DataTypes.STRING,
 			allowNull: false,
+		},
+		region: {
+			type: DataTypes.STRING,
+			allowNull: false,
+		},
+		icon: {
+			type: DataTypes.STRING,
+		},
+		defaultMessageNotifications: {
+			type: DataTypes.STRING || DataTypes.NUMBER
+		},
+		verificationLevel: {
+			type: DataTypes.NUMBER,
+			allowNull: false,
+		},
+		afkTimeout: {
+			type: DataTypes.NUMBER,
+		},
+		explicitContentFilter: {
+			type: DataTypes.NUMBER,
+			allowNull: false,
+		},
+		banner: {
+			type: DataTypes.STRING,
+		},
+		splash: {
+			type: DataTypes.STRING,
 		},
 		channels: {
 			type: DataTypes.JSON,
@@ -19,6 +46,10 @@ module.exports = (sequelize, DataTypes) => {
 		},
 		roles: {
 			type: DataTypes.JSON,
+		},
+		uses: {
+			type: DataTypes.STRING,
+			defaultValue: 0,
 		},
 		createdAt: {
 			type: DataTypes.TIME,
