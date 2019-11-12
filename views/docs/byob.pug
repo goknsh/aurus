@@ -1,0 +1,23 @@
+extends layout
+
+block docsContent
+    h1#instructions Instructions to Bring Your Own Bot
+    ol.list-item
+        li Clone Repository
+        li Copy sample.env to .env
+        ul.list-item
+            li NODE_ENV refers to your node environment
+            li CLIENT_ID refers to your Discord bot's client id
+            li TOKEN refers to your Discord bot's token
+            li DB_USER refers to your SQLite3 Database's username
+            li DB_PASSWORD refers to your SQLite3 Database's password
+            li TRN_API_KEY refers to your Tracker Network API key
+            li WEBSITE refers to your instance of the website
+        li You are ready to deploy
+        ul.list-item
+            li Make sure to run npm install
+            li Start the website and bot with npm start
+
+block jumpTo
+    li.list-item
+        a.list-link(href="#instructions") Instructions to Bring Your Own Bot

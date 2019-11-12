@@ -1,4 +1,25 @@
 extends ./../layout
 
 block docsContent
-    h1 ban
+    h1.mb-1 ban
+    p.text-gray-700 Command to ban a user from a server.
+
+    h3.font-weight-bold#usage Usage
+    p.text-gray-700 !ban &lt;username&gt; &lt;username&gt;
+
+    h3.font-weight-bold#limitations Limitations
+    ul.list-item.text-gray-700
+        li You must mention at least one user
+        li You may only use this command once in 3 seconds
+        li You may only use this command in servers
+        li You must have the permission BAN_MEMBERS or above
+        li The bot must have the permission BAN_MEMBERS or above
+        li You cannot ban yourself
+        li You cannot ban the bot
+
+
+block jumpTo
+    li.list-item
+        a.list-link(href="#usage") Usage
+    li.list-item
+        a.list-link(href="#limitations") Limitations

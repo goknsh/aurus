@@ -2,15 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="6208305a-2530-4ed3-b8bd-555be75db6b6" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bot/commands/track.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/routes/template.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/template.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/byob.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/changelog.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/commands/index.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/commands/ping.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/commands/template.pug" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/docs/commands/track.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/commands/ban.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/ban.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bot/commands/help.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/help.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/bot/commands/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample.env" beforeDir="false" afterPath="$PROJECT_DIR$/sample.env" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/docs/commands.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/docs/commands.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/docs/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/routes/docs/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/docs/commands/ban.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/docs/commands/ban.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/docs/commands/clear.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/docs/commands/clear.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/docs/commands/help.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/docs/commands/help.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/docs/commands/kick.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/docs/commands/kick.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/docs/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/docs/index.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/docs/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/docs/layout.pug" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.pug" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/views/layout.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/layout.pug" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -103,15 +114,15 @@
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Akaanksh Raj\Desktop\Code\aurus.ark.black\css" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\routes\docs" />
+      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views\docs" />
       <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views" />
+      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\routes\docs" />
       <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\" />
       <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black" />
-      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views\errors" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Akaanksh Raj\Desktop\Code\aurus.ark.black\css" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -172,6 +183,7 @@
         </treeState>
       </serviceView>
     </option>
+    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -206,7 +218,7 @@
       <workItem from="1573369208717" duration="1725000" />
       <workItem from="1573376616142" duration="11464000" />
       <workItem from="1573443258217" duration="4103000" />
-      <workItem from="1573466094693" duration="43590000" />
+      <workItem from="1573466094693" duration="48619000" />
     </task>
     <servers />
   </component>

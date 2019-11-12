@@ -1,12 +1,6 @@
 # Aurus
 Discord bot to setup your server in a snap
 
-### Database Structure
-Server IDs:
-
-|    id    	|     prefix     	|
-|:--------:	|:--------------:	|
-| Guild ID 	| Command Prefix 	|
 
 ### Available Properties for Commands
 | Name        	| Type    	| Description                                                      	| Required 	| Default 	|
@@ -19,3 +13,6 @@ Server IDs:
 | cooldown    	| integer 	| Number of seconds before command can be invoked again            	| false    	| 3       	|
 | permissions 	| array   	| Valid Discord permissions the author requires to execute command 	| false    	| []    	|
 | serverOnly  	| boolean 	| Whether the command is limited to servers only                   	| false    	| false   	|
+
+## Contributing
+If you would like to contribute, most of our files have comments in them explaining what the code does. The starting point is at `bin/www`.

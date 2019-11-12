@@ -4,7 +4,7 @@ module.exports = {
 	name: "ban",
 	description: "Bans people",
 	args: true,
-	usage: "<username> <username2> <username3>... <days of messages to delete>",
+	usage: "<username> <username2> <username3>",
 	cooldown: 3,
 	permissions: ["BAN_MEMBERS"],
 	serverOnly: true,

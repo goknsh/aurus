@@ -17,19 +17,29 @@ block content
                             h6.text-uppercase.font-weight-bold Commands
                             ul.list.mb-6
                                 li.list-item.d-flex
+                                    a.list-link(href="/docs/commands/") Introduction
+                                li.list-item.d-flex
                                     a.list-link(href="/docs/commands/ban") ban
                                 li.list-item.d-flex
                                     a.list-link(href="/docs/commands/clear") clear
+                                li.list-item.d-flex
+                                    a.list-link(href="/docs/commands/help") help
                                 li.list-item
                                     a.list-link(href="/docs/commands/kick") kick
+                                li.list-item.d-flex
+                                    a.list-link(href="/docs/commands/ping") ping
+                                li.list-item.d-flex
+                                    a.list-link(href="/docs/commands/template") template
+                                li.list-item.d-flex
+                                    a.list-link(href="/docs/commands/track") track
                             h6.text-uppercase.font-weight-bold Bring your own bot
                             ul.list.mb-6
                                 li.list-item.d-flex
-                                    a.list-link(href="/docs/byob/") Introduction
+                                    a.list-link(href="/docs/byob/") Instructions
                 .col-12.col-lg-6.col-xl-8.offset-lg-3.offset-xl-2.py-7.py-lg-9.px-lg-7
                     block docsContent
                 .col-12.col-lg-3.col-xl-2.d-none.d-lg-block.px-lg-0.sidenav.sidenav-right
                     .my-7.my-lg-9.px-lg-7.border-left-lg.border-gray-300
                         h6.text-uppercase.font-weight-bold Jump to
                         ul.list.mb-0
-                            li.list-item
+                            block jumpTo

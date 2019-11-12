@@ -1,0 +1,53 @@
+extends ./../layout
+
+block docsContent
+    h1.mb-1#introduction Introduction
+    p.text-gray-700 You are here to checkout the commands that Aurus ships with. The table below contains all of the commands Aurus currently ships with. I highly recommend you checkout the template command, it has caveats and some things you'd like to know before you create a template.
+
+    hr.border-gray-300.my-6
+
+    h3.font-weight-bold#ban
+        a(href="ban") ban
+    p.text-gray-700 Command to ban a user from a server.
+
+    h3.font-weight-bold#clear
+        a(href="clear") clear
+    p.text-gray-700 Command to clear messages from a server.
+
+    h3.font-weight-bold#help
+        a(href="help") help
+    p.text-gray-700 Command to get help about other commands.
+
+    h3.font-weight-bold#kick
+        a(href="kick") kick
+    p.text-gray-700 Command to kick a user from a server.
+
+    h3.font-weight-bold#ping
+        a(href="ping") ping
+    p.text-gray-700 Fun little command that responds with pong.
+
+    h3.font-weight-bold#template
+        a(href="template") template
+    p.text-gray-700 Command to create, update or use a template.
+
+    h3.font-weight-bold#track
+        a(href="track") track
+    p.text-gray-700 Command for game stats tracking for Apex Legends, CSGO, Division 2, Overwatch and Splitgate.
+
+block jumpTo
+    li.list-item
+        a.list-link(href="#introduction") Introduction
+    li.list-item
+        a.list-link(href="#ban") ban
+    li.list-item
+        a.list-link(href="#clear") clear
+    li.list-item
+        a.list-link(href="#help") help
+    li.list-item
+        a.list-link(href="#kick") kick
+    li.list-item
+        a.list-link(href="#ping") ping
+    li.list-item
+        a.list-link(href="#template") template
+    li.list-item
+        a.list-link(href="#track") track

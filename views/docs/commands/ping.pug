@@ -1,19 +1,15 @@
 extends ./../layout
 
 block docsContent
-    h1.mb-1 help
-    p.text-gray-700 Command to get help about other commands.
+    h1.mb-1 ping
+    p.text-gray-700 Fun little command that responds with pong.
 
     h3.font-weight-bold#usage Usage
-    p.text-gray-700
-        | !help
-        br
-        | !help &lt;command&gt;
+    p.text-gray-700 !ping
 
     h3.font-weight-bold#limitations Limitations
     ul.list-item.text-gray-700
-        li You may provide a valid command name
-        li You may only use this command every other seconds
+        li You may only use this command once in 3 seconds
 
 block jumpTo
     li.list-item

@@ -1,0 +1,26 @@
+extends ./../layout
+
+block docsContent
+    h1.mb-1 track
+    p.text-gray-700 Command for game stats tracking for Apex Legends, CSGO, Division 2, Overwatch and Splitgate.
+
+    h3.font-weight-bold#usage Usage
+    p.text-gray-700
+        | !track &lt;game&gt; &lt;platform&gt; &lt;profile id&gt;
+
+    h3.font-weight-bold#limitations Limitations
+    ul.list-item.text-gray-700
+        li You must provide all three arguments
+        li You may only use this command once in 3 seconds
+        li Valid games include: "apex", "csgo", "division-2", "overwatch", "splitgate"
+        li Valid platforms for "apex": "origin", "xbl", "psn"
+        li Valid platforms for "csgo": "steam"
+        li Valid platforms for "division-2": "uplay", "xbl", "psn"
+        li Valid platforms for "overwatch": "battlenet", "xbl", "psn"
+        li Valid platforms for "splitgate": "steam"
+
+block jumpTo
+    li.list-item
+        a.list-link(href="#usage") Usage
+    li.list-item
+        a.list-link(href="#limitations") Limitations

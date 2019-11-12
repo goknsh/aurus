@@ -14,7 +14,7 @@ module.exports = {
 	description: "Command to create templates or use existing templates",
 	args: true,
 	argsUsage: "<create/update/delete/use/get> <template id>",
-	cooldown: 0.1,
+	cooldown: 1200,
 	permissions: ["ADMINISTRATOR"],
 	serverOnly: true,
 	async execute(message, args) {
