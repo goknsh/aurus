@@ -8,6 +8,7 @@ const logger = require("./logger");
 const indexRouter = require("./routes");
 const docsRouter = require("./routes/docs/index");
 const commandRouter = require("./routes/docs/commands");
+const templateRouter = require("./routes/template");
 
 const app = express();
 
@@ -25,7 +26,7 @@ app.use(sassMiddleware({
 
 // winston middleware
 app.use((req, res, next) => {
-	logger.express(req, res, next)
+	logger.express(req, res, next);
 });
 
 // set directory of static files
@@ -35,6 +36,7 @@ app.use(express.static(path.join(__dirname, "public")));
 app.use("/", indexRouter);
 app.use("/docs/", docsRouter);
 app.use("/docs/commands/", commandRouter);
+app.use("/template/", templateRouter);
 
 // catch 404 error
 app.use((req, res, next) => {

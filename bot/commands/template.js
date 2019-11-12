@@ -232,7 +232,7 @@ module.exports = {
 					promises = [];
 
 					if (template.channels.category.length) {
-						await template.channels.category.forEach(category => {
+						await template.channels.category.reverse().forEach(category => {
 							let options = {
 								type: "category",
 								permissionOverwrites: category.permOverwrites.map(overwrites => {
@@ -257,7 +257,7 @@ module.exports = {
 					if (template.channels.text.length) {
 						let setSystemChannel = null;
 						let channelTopics = new Discord.Collection();
-						await template.channels.text.forEach(text => {
+						await template.channels.text.reverse().forEach(text => {
 							let options = {
 								type: "text",
 								nsfw: text.nsfw,
@@ -309,7 +309,7 @@ module.exports = {
 								return limit;
 							}
 						};
-						await template.channels.voice.forEach(voice => {
+						await template.channels.voice.reverse().forEach(voice => {
 							let options = {
 								type: "voice",
 								bitrate: adjustBitrate(voice.bitrate, nGuild.premiumTier),

@@ -1,0 +1,84 @@
+extends layout
+
+block content
+    nav.bg-gray-200
+        .container
+            .row
+                .col-12
+                    ol.breadcrumb.breadcrumb-scroll
+                        li.breadcrumb-item Template
+                        li.breadcrumb-item.active(aria-current="page")= template.id
+    .container.py-4
+        .d-flex.align-items-center
+            .avatar.avatar-xxl
+                img.avatar-img.rounded-circle(src= template.icon)
+            .mb-0.ml-3
+                h1.mb-0= template.name
+                kbd.mb-0 a!template use #{template.id}
+    .container.py-4
+        .row
+            .col-12.col-md-4
+                h3 General Info
+                ul.list-unstyled
+                    li= "ID: " + template.id
+                    li= "Name: " + template.name
+                    li= "Uses: " + template.uses
+                    li= "Last Updated: " + template.updatedAt
+                    li= "Region: " + template.region
+                    li= "Message Notifications: " + template.defaultMessageNotifications
+                    li= "AFK Timeout: " + template.afkTimeout + "s"
+                    li
+                        a(href="https://discordapp.com/developers/docs/resources/guild#guild-object-explicit-content-filter-level", target="_blank")= "Explicit Content Filter: " + template.explicitContentFilter
+                    li
+                        a(href="https://discordapp.com/developers/docs/resources/guild#guild-object-verification-level", target="_blank")= "Verification Level: " + template.verificationLevel
+                    li Icon:&nbsp;
+                        if template.icon
+                            a(href=template.icon, target="_blank") View
+                        else
+                            | Not Available
+                    li Banner:&nbsp;
+                        if template.banner
+                            a(href=template.banner, target="_blank") View
+                        else
+                            | Not Set
+                    li Splash:&nbsp;
+                        if template.splash
+                            a(href=template.splash, target="_blank") View
+                        else
+                            | Not Set
+                h3 Emojis
+                ul.list-unstyled
+                    if template.emojis.length > 0
+                        each emoji in template.emojis
+                            li
+                                a(href=emoji.url)= ":" + emoji.name + ":"
+                    else
+                        li No custom emojis are on this server
+            .col-12.col-md-4
+                h3 Channels
+                ul.list-unstyled
+                    each category in template.channels.category
+                        li= category.name
+                            ul
+                                each text in template.channels.text
+                                    if text.parentCat === category.idOld
+                                        if text.permOverwrites !== null
+                                            li= "#" + text.name + " (Restricted)"
+                                        else
+                                            li= "#" + text.name
+                                each voice in template.channels.voice
+                                    if voice.parentCat === category.idOld
+                                        if voice.permOverwrites !== null
+                                            li= voice.name + " (Restricted)"
+                                        else
+                                            li= voice.name
+            .col-12.col-md-4
+                h3 Roles in order
+                ul.list-unstyled
+                    each role in template.roles
+                        li(style="color: "+ role.hexColor)= role.name
+                        ul
+                            li= "Permissions: "
+                                a(href="https://discordapi.com/permissions.html#" + role.permBitfield, target="_blank")= role.permBitfield
+                            li= "Mentionable: " + role.mentionable
+
