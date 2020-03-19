@@ -1,12 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6208305a-2530-4ed3-b8bd-555be75db6b6" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bot/commands/template.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot/commands/template.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/docs/commands/template.pug" beforeDir="false" afterPath="$PROJECT_DIR$/views/docs/commands/template.pug" afterDir="false" />
+    <list default="true" id="9dbd1595-d75d-4f49-bdfa-4d625cc43ac6" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/bot.js" beforeDir="false" afterPath="$PROJECT_DIR$/bot.js" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,100 +28,69 @@
     <expand>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="main.db" type="feb32156:DbDataSourceImpl" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="main.db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
       </path>
       <path>
         <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="database.sqlite" type="feb32156:DbDataSourceImpl" />
+        <item name="main.db" type="feb32156:DbDataSourceImpl" />
         <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
         <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
-        <item name="templates: table" type="3d80ac25:SqliteImplModel$Table" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="main.db" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="main: schema" type="981a47c2:SqliteImplModel$Schema" />
+        <item name="settings: table" type="3d80ac25:SqliteImplModel$Table" />
       </path>
     </expand>
     <select />
   </component>
-  <component name="FavoritesManager">
-    <favorites_list name="aurus.ark.black" />
-  </component>
-  <component name="FileTemplateManagerImpl">
-    <option name="RECENT_TEMPLATES">
-      <list>
-        <option value="JavaScript File" />
-      </list>
-    </option>
-  </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="ban" />
-      </map>
-    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1Sj6IgsniXE8EgVTiEOhQ7tJU7P" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
-    <ConfirmationsSetting value="2" id="Add" />
-  </component>
-  <component name="PropertiesComponent">
-    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
-    <property name="DatabaseDriversLRU" value="sqlite" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="aspect.path.notification.shown" value="true" />
-    <property name="database.data.extractors.current.id" value="Tab-separated (TSV)_id" />
-    <property name="javascript.nodejs.core.library.configured.version" value="10.16.3" />
-    <property name="last_opened_file_path" value="G:/My Drive/University/002 Fall 2019/ENGR 102 - Honors Engineering Lab I - Computation/Week 011" />
-    <property name="node.js.detected.package.eslint" value="true" />
-    <property name="node.js.path.for.package.eslint" value="project" />
-    <property name="node.js.path.for.package.tslint" value="project" />
-    <property name="node.js.selected.package.eslint" value="(autodetect)" />
-    <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="nodejs_package_manager_path" value="npm" />
-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
-    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
-  </component>
-  <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views\docs" />
-      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\views" />
-      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\routes\docs" />
-      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black\" />
-      <recent name="C:\Users\ark\Desktop\Code\aurus.ark.black" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Akaanksh Raj\Desktop\Code\aurus.ark.black\css" />
-    </key>
-  </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\ark\Desktop\Code\aurus\.idea" />
+      </set>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+  <component name="ProjectId" id="1TyCTqrp8yCwu1K9VTEmMfGD8P9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="sqlite" />
+    <property name="NewWatcherDialog.advanced.open" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="javascript.nodejs.core.library.configured.version" value="12.16.1" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="discord-application" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\IntelliJ IDEA 2019.2.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RunManager" selected="npm.start-dev">
+    <configuration name="bot.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/bot.js" working-dir="$PROJECT_DIR$">
+      <method v="2" />
+    </configuration>
+    <configuration name="start-dev" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
       <package-json value="$PROJECT_DIR$/package.json" />
       <command value="run" />
       <scripts>
-        <script value="dev" />
+        <script value="start-dev" />
       </scripts>
       <node-interpreter value="project" />
       <envs />
@@ -132,100 +98,99 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.dev" />
+        <item itemvalue="npm.start-dev" />
+        <item itemvalue="Node.js.bot.js" />
       </list>
     </recent_temporary>
-  </component>
-  <component name="ServiceViewManager">
-    <option name="allServicesViewState">
-      <serviceView>
-        <treeState>
-          <expand>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b6a873fd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b6a873fd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@79ac5cbc" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b6a873fd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@1f9dd18b" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-            <path>
-              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@b6a873fd" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@2551d0c9" type="9fbbdea:ServiceModel$ServiceNode" />
-            </path>
-          </expand>
-          <select />
-        </treeState>
-      </serviceView>
-    </option>
-    <option name="showServicesTree" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="6208305a-2530-4ed3-b8bd-555be75db6b6" name="Default Changelist" comment="" />
-      <created>1572064580340</created>
+      <changelist id="9dbd1595-d75d-4f49-bdfa-4d625cc43ac6" name="Default Changelist" comment="" />
+      <created>1574422958657</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1572064580340</updated>
-      <workItem from="1572064583535" duration="190000" />
-      <workItem from="1572292024153" duration="6159000" />
-      <workItem from="1572299079097" duration="209000" />
-      <workItem from="1572365144333" duration="7143000" />
-      <workItem from="1572458893307" duration="1070000" />
-      <workItem from="1572560215606" duration="27000" />
-      <workItem from="1572560325057" duration="69000" />
-      <workItem from="1572560446235" duration="4295000" />
-      <workItem from="1572621382900" duration="8351000" />
-      <workItem from="1572635847813" duration="143000" />
-      <workItem from="1572743721491" duration="1970000" />
-      <workItem from="1572745739964" duration="847000" />
-      <workItem from="1572755473422" duration="9327000" />
-      <workItem from="1572849372181" duration="90000" />
-      <workItem from="1572872765576" duration="18425000" />
-      <workItem from="1573021091319" duration="2309000" />
-      <workItem from="1573072600999" duration="4650000" />
-      <workItem from="1573171908256" duration="14472000" />
-      <workItem from="1573205615041" duration="7554000" />
-      <workItem from="1573354252676" duration="13027000" />
-      <workItem from="1573369208717" duration="1725000" />
-      <workItem from="1573376616142" duration="11464000" />
-      <workItem from="1573443258217" duration="4103000" />
-      <workItem from="1573466094693" duration="49439000" />
-      <workItem from="1573538805556" duration="578000" />
-      <workItem from="1573540833286" duration="23000" />
+      <updated>1574422958657</updated>
+      <workItem from="1574422959846" duration="3227000" />
+      <workItem from="1574426209919" duration="423000" />
+      <workItem from="1574426652835" duration="593000" />
+      <workItem from="1574505852662" duration="391000" />
+      <workItem from="1574506281110" duration="3651000" />
+      <workItem from="1574682402433" duration="160000" />
+      <workItem from="1574682588105" duration="698000" />
+      <workItem from="1574735270996" duration="1401000" />
+      <workItem from="1582678249127" duration="39291000" />
+      <workItem from="1582760124688" duration="598000" />
+      <workItem from="1582844056007" duration="990000" />
+      <workItem from="1582911296571" duration="12421000" />
+      <workItem from="1582925750788" duration="122000" />
+      <workItem from="1582925893106" duration="16000" />
+      <workItem from="1582925993761" duration="2428000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UnknownFeatures">
-    <option featureType="com.intellij.fileTypeFactory" implementationName="*.log" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
-          </value>
-        </entry>
-      </map>
-    </option>
-  </component>
-  <component name="VcsManagerConfiguration">
-    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  <component name="WindowStateProjectService">
+    <state x="552" y="178" key="#Notifications" timestamp="1583273628611">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#Notifications/0.0.1920.1040@0.0.1920.1040" timestamp="1583273628611" />
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1582679235107">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="178" key="#com.intellij.execution.impl.EditConfigurationsDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582679235107" />
+    <state x="702" y="323" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1582679023624">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="702" y="323" key="#com.intellij.fileTypes.FileTypeChooser/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582679023624" />
+    <state x="588" y="300" width="743" height="658" key="EditFileWatcherDialog" timestamp="1582684555091">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="588" y="300" width="743" height="658" key="EditFileWatcherDialog/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582684555091" />
+    <state x="740" y="247" key="FileChooserDialogImpl" timestamp="1583361111353">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="247" key="FileChooserDialogImpl/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1583361111353" />
+    <state width="1881" height="282" key="GridCell.Tab.0.bottom" timestamp="1583273399044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="282" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583273399044" />
+    <state width="1881" height="282" key="GridCell.Tab.0.center" timestamp="1583273399044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="282" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583273399044" />
+    <state width="1881" height="282" key="GridCell.Tab.0.left" timestamp="1583273399044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="282" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583273399044" />
+    <state width="1881" height="282" key="GridCell.Tab.0.right" timestamp="1583273399044">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1881" height="282" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583273399044" />
+    <state x="461" y="163" key="SettingsEditor" timestamp="1584125235113">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="461" y="163" key="SettingsEditor/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582684556979" />
+    <state x="461" y="163" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1584125235113" />
+    <state width="498" height="443" key="SwitcherDM" timestamp="1582689232391">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="498" height="443" key="SwitcherDM/-1920.0.1920.1040/0.0.1920.1040@0.0.1920.1040" timestamp="1582689232391" />
+    <state x="715" y="365" key="cloudConfig.SelfSettingsDialog" timestamp="1583185424778">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="715" y="365" key="cloudConfig.SelfSettingsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583185424778" />
+    <state x="641" y="343" key="com.intellij.ide.util.TipDialog" timestamp="1584125791160">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="641" y="343" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1584125791160" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583636137189">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583636137189" />
   </component>
 </project>
