@@ -1,6 +1,6 @@
 .env
-.idea
 aurus.ai
 
+.idea/
 database
 node_modules
