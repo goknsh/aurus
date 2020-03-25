@@ -18,7 +18,7 @@ module.exports = class BanUserCommand extends Command {
         ".ban 7 @User",
         ".ban 7 @User 1 @User 2"
       ],
-      guarded: true,
+      guarded: false,
       guildOnly: true,
       clientPermissions: ["BAN_MEMBERS"],
       userPermissions: ["BAN_MEMBERS"],

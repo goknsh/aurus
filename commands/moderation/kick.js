@@ -14,7 +14,7 @@ module.exports = class KickUserCommand extends Command {
 				Only members who can kick members may use this command.
 			`,
       examples: [".kick [users]", ".kick @User", ".kick @User 1 @User 2"],
-      guarded: true,
+      guarded: false,
       guildOnly: true,
       clientPermissions: ["KICK_MEMBERS"],
       userPermissions: ["KICK_MEMBERS"],
