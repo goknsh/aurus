@@ -28,7 +28,8 @@ module.exports = class JoinRoleCommand extends Command {
           error:
             "Role was not found, remember, do not mention the role, only name the role you would like to join. Try again.",
           type: "string",
-          default: ""
+          default: "",
+          parse: role => role.toLowerCase()
         }
       ]
     });
@@ -64,7 +65,7 @@ module.exports = class JoinRoleCommand extends Command {
     // Join a role
     else {
       let roleToJoin = joinableRoles.filter(role => {
-        return role.name === args.role;
+        return role.name.toLowerCase() === args.role;
       });
       if (roleToJoin.length === 0) {
         return msg.reply(
@@ -89,7 +90,7 @@ module.exports = class JoinRoleCommand extends Command {
             });
         } else {
           let roleToRemove = joinableRoles.filter(role => {
-            return role.name !== args.role;
+            return role.name.toLowerCase() !== args.role;
           });
           // Remove role that no longer exists from the database
           await this.client.provider.set(

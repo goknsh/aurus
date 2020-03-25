@@ -15,7 +15,12 @@ module.exports = class LeaveRoleCommand extends Command {
         Sending no arguments will list the removable roles.
 				Only members who can send messages may use this command.
 			`,
-      examples: [".leave (role name)", ".leave", ".leave Member", ".leave Role 1"],
+      examples: [
+        ".leave (role name)",
+        ".leave",
+        ".leave Member",
+        ".leave Role 1"
+      ],
       guarded: false,
       guildOnly: true,
       clientPermissions: ["MANAGE_ROLES"],
@@ -28,7 +33,8 @@ module.exports = class LeaveRoleCommand extends Command {
           error:
             "Role was not found, remember, do not mention the role, only name the role you would like to remove. Try again.",
           type: "string",
-          default: ""
+          default: "",
+          parse: role => role.toLowerCase()
         }
       ]
     });
@@ -64,7 +70,7 @@ module.exports = class LeaveRoleCommand extends Command {
     // Remove a role
     else {
       let roleToRemove = joinableRoles.filter(role => {
-        return role.name === args.role;
+        return role.name.toLowerCase() === args.role;
       });
       if (roleToRemove.length === 0) {
         return msg.reply(
