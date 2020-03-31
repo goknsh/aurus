@@ -5,7 +5,7 @@ module.exports = class JoinRoleCommand extends Command {
   constructor(client) {
     super(client, {
       name: "join",
-      aliases: ["joinrole", "jr"],
+      aliases: ["joinrole", "jr", "im"],
       group: "roles",
       memberName: "joinrole",
       description: "List joinable roles or join a role.",

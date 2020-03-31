@@ -1,4 +1,5 @@
 let purgeMessageCollector = [];
+
 module.exports = client => {
   client.user
     .setActivity("for your messages", { type: "WATCHING" })
@@ -7,11 +8,11 @@ module.exports = client => {
       let allSettings = await client.provider.db.all(
         `SELECT CAST(guild as TEXT) as guild, settings from settings`
       );
-      allSettings = allSettings.filter(settings => {
+      let purgeChannelsAll = allSettings.filter(settings => {
         settings.settings = JSON.parse(settings.settings);
         return settings.settings.purgeChannelList != null;
       });
-      for (let settings of allSettings) {
+      for (let settings of purgeChannelsAll) {
         for (let purgeChannelList of settings.settings.purgeChannelList) {
           client.channels
             .fetch(purgeChannelList.channel)
@@ -23,6 +24,17 @@ module.exports = client => {
                     m.delete();
                   }, purgeChannelList.time * 1000);
                 });
+            })
+            .catch(async e => {
+              if (e.code === 10003) {
+                await client.provider.set(
+                  purgeChannelList.guild,
+                  "purgeChannelList",
+                  settings.settings.purgeChannelList.filter(list => {
+                    return list.channel !== purgeChannelList.channel;
+                  })
+                );
+              }
             });
         }
       }
