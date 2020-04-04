@@ -1,8 +1,7 @@
 const { oneLine } = require("common-tags");
 const { Command } = require("discord.js-commando");
-const { purgeMessageCollector } = require("./../../events/ready");
 
-module.exports = class AddJoinableRoleCommand extends Command {
+module.exports = class ClearMessagesCommand extends Command {
   constructor(client) {
     super(client, {
       name: "clear",

@@ -1,7 +1,8 @@
 const { oneLine } = require("common-tags");
 const { Command } = require("discord.js-commando");
+const { voiceCollector } = require("./../../events/ready");
 
-module.exports = class VoiceCommand extends Command {
+module.exports = class VoiceSetup extends Command {
   constructor(client) {
     super(client, {
       name: "voicesetup",
@@ -9,15 +10,12 @@ module.exports = class VoiceCommand extends Command {
       group: "voice",
       memberName: "setup",
       description:
-        "Setup to allow members to temporary voice channels and let your users control them.",
+        "Setup to allow members to create temporary voice channels and let them control it.",
       details: oneLine`
-                You must be in a voice channel to use any of these commands.
-                Control your channel using these commands after you have your own channel.
-                The first argument must the the type of command you want to use in your Voice Channel.
-				Only members who can send messages may use this command.
+				Only members who can manage channels and roles, deafen and move members may use this command.
 			`,
-      examples: [".v [users]", ".v @User", ".v @User 1 @User 2"],
-      guarded: true,
+      examples: [".vs"],
+      guarded: false,
       guildOnly: true,
       clientPermissions: [
         "DEAFEN_MEMBERS",
@@ -25,40 +23,40 @@ module.exports = class VoiceCommand extends Command {
         "MANAGE_ROLES",
         "MOVE_MEMBERS"
       ],
-      userPermissions: ["SEND_MESSAGES"],
-      args: [
-        {
-          key: "type",
-          label: "type",
-          prompt:
-            "What do you want to change regarding the channel you are in?",
-          error:
-            "User was not found. Remember, you need to mention the user. Try again.",
-          type: "string",
-          parse: value => {
-            return value.toLowerCase();
-          },
-          validate: value => {
-            [
-              "allow",
-              "claim",
-              "disallow",
-              "kick",
-              "lock",
-              "name",
-              "permit",
-              "reject",
-              "unlock"
-            ].some(ele => ele === value);
-          }
-        }
+      userPermissions: [
+        "DEAFEN_MEMBERS",
+        "MANAGE_CHANNELS",
+        "MANAGE_ROLES",
+        "MOVE_MEMBERS"
       ]
     });
   }
 
   async run(msg, args) {
-    // Allow: Permit user to join your channel
-    // Claim: Claim ownership of a channel
-    //
+    msg.guild.channels
+      .create("Voice on Demand", {
+        type: "category",
+        reason:
+          "To allow members to create temporary voice channels and let them control it"
+      })
+      .then(categoryChannel => {
+        msg.guild.channels
+          .create("Join to Create", {
+            type: "voice",
+            parent: categoryChannel,
+            reason:
+              "To allow members to create temporary voice channels and let them control it"
+          })
+          .then(async voiceChannel => {
+            await this.client.provider.set(msg.guild, "voice", {
+              origin: voiceChannel,
+              children: []
+            });
+            voiceCollector.push({ origin: voiceChannel, children: [] });
+            await msg.reply(
+              `Voice channel and category created. When a user joins the Join to Create channel, a voice channel will be created for them. Feel free to change the name of the channel or category and move it anywhere you please.`
+            );
+          });
+      });
   }
 };

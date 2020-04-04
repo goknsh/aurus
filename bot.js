@@ -6,7 +6,8 @@ const sqlite = require("sqlite");
 const client = new Commando.CommandoClient({
   commandPrefix: process.env.PREFIX,
   owner: process.env.OWNER,
-  invite: process.env.INVITE
+  invite: process.env.INVITE,
+  unknownCommandResponse: false
 });
 
 client.registry
