@@ -12,9 +12,9 @@ module.exports = class VoiceControl extends Command {
       details: oneLine`
         Control your voice channels using these commands.
         You must be in a voice channel to use this command.
-        The first argument must the the type of command you want to use in your Voice Channel.
+        The first argument must be the type of command you want to use in your Voice Channel.
         Whenever a sub command allows you to mention users, you may mention as may users as you like.
-        Allow: To allow a user or role to join your channel, use \`.v allow @User\` or \`.v a @User 1 @User 2\`; permit and p is alias for allow.
+        Allow: To allow a user or role to join your channel, use \`.v allow @User\` or \`.v a @User 1 @User 2\`; permit and p are aliases for allow.
         Bitrate: To change the bitrate (in kbps) of your channel, use \`.v bitrate 60\` or \`.v b 96\`.
         Deafen: To deafen a user, use \`.v deafen @User\` or \`.v df @User 1 @User 2\`.
         Disallow: To disallow a user or role to join your channel, use \`.v disallow @User\` or \`.v d @User 1 @User 2\`.

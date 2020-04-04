@@ -14,9 +14,9 @@ module.exports = class VoiceCommand extends Command {
       details: oneLine`
         You must be in a voice channel created by joining the Join to Create channel to use any of these commands.
         Control your channel using these commands after you have your own channel.
-        The first argument must the the type of command you want to use in your Voice Channel.
+        The first argument must be the type of command you want to use in your Voice Channel.
         Whenever a sub command allows you to mention users, you may mention as may users as you like.
-        Allow: To allow a user or role to join your channel, use \`.v allow @User\` or \`.v a @User 1 @User 2\`; permit and p is alias for allow.
+        Allow: To allow a user or role to join your channel, use \`.v allow @User\` or \`.v a @User 1 @User 2\`; permit and p are aliases for allow.
         Bitrate: To change the bitrate (in kbps) of your channel, use \`.v bitrate 60\` or \`.v b 96\`.
         Claim: If the previous owner has left the channel, you may claim it using \`.v claim\` or \`.v c\`.
         Disallow: To disallow a user or role to join your channel, use \`.v disallow @User\` or \`.v d @User 1 @User 2\`.
