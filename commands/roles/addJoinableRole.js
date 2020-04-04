@@ -43,7 +43,9 @@ module.exports = class AddJoinableRoleCommand extends Command {
     // Check for duplicate joinable roles
     joinableRoles = joinableRoles.filter(role => {
       for (let newRole of args.roles) {
-        return role.id !== newRole.id;
+        if (role.id !== newRole.id) {
+          return role.id !== newRole.id;
+        }
       }
     });
     // Add joinable roles to array
@@ -51,15 +53,15 @@ module.exports = class AddJoinableRoleCommand extends Command {
     let nameExists = false;
     for (let role of args.roles) {
       if (role.managed) {
-        beforeMessage += `\nCannot add ${role.name} as a joinable and removable role because it is a role managed by an integration.\n`;
+        beforeMessage += `\nCannot add ${role.name} as a joinable and removable role because it is a role managed by an integration.`;
       } else {
         for (let oldRoles of joinableRoles) {
           if (oldRoles.name === role.name) nameExists = true;
         }
         if (nameExists) {
-          beforeMessage += `\nCannot add ${role.name} as joinable and removable role because there is already a joinable and removable role with that name.\n`;
+          beforeMessage += `\nCannot add ${role.name} as joinable and removable role because there is already a joinable and removable role with that name.`;
         } else {
-          beforeMessage += `\n${role.name} is now a joinable and removable role.\n`;
+          beforeMessage += `\n${role.name} is now a joinable and removable role.`;
           joinableRoles.push(role.toJSON());
         }
       }
@@ -67,7 +69,7 @@ module.exports = class AddJoinableRoleCommand extends Command {
     // Add joinable roles to database
     await this.client.provider.set(msg.guild, "joinableRoles", joinableRoles);
     return msg.reply(
-      `${beforeMessage}\nThere are now ${joinableRoles.length} joinable and removable roles in this server. Type \`.join\` to view joinable roles.`
+      `${beforeMessage}\n\nThere are now ${joinableRoles.length} joinable and removable roles in this server. Type \`.join\` to view joinable roles.`
     );
   }
 };

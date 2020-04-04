@@ -43,7 +43,9 @@ module.exports = class RemoveJoinableRoleCommand extends Command {
     // Check for duplicate joinable roles
     joinableRoles = joinableRoles.filter(role => {
       for (let newRole of args.roles) {
-        return role.id !== newRole.id;
+        if (role.id !== newRole.id) {
+          return role.id !== newRole.id;
+        }
       }
     });
     // Add joinable roles to database

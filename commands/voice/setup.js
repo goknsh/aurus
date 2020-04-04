@@ -17,18 +17,8 @@ module.exports = class VoiceSetup extends Command {
       examples: [".vs"],
       guarded: false,
       guildOnly: true,
-      clientPermissions: [
-        "DEAFEN_MEMBERS",
-        "MANAGE_CHANNELS",
-        "MANAGE_ROLES",
-        "MOVE_MEMBERS"
-      ],
-      userPermissions: [
-        "DEAFEN_MEMBERS",
-        "MANAGE_CHANNELS",
-        "MANAGE_ROLES",
-        "MOVE_MEMBERS"
-      ]
+      clientPermissions: ["MANAGE_CHANNELS"],
+      userPermissions: ["ADMINISTRATOR"]
     });
   }
 
