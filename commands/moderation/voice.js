@@ -14,18 +14,18 @@ module.exports = class VoiceControl extends Command {
         You must be in a voice channel to use this command.
         The first argument must be the type of command you want to use in your Voice Channel.
         Whenever a sub command allows you to mention users, you may mention as may users as you like.
-        Allow: To allow a user or role to join your channel, use \`.v allow @User\` or \`.v a @User 1 @User 2\`; permit and p are aliases for allow.
-        Bitrate: To change the bitrate (in kbps) of your channel, use \`.v bitrate 60\` or \`.v b 96\`.
-        Deafen: To deafen a user, use \`.v deafen @User\` or \`.v df @User 1 @User 2\`.
-        Disallow: To disallow a user or role to join your channel, use \`.v disallow @User\` or \`.v d @User 1 @User 2\`.
-        Kick: To kick a user from your channel, use \`.v kick @User\` or \`.v k @User 1 @User 2\`; disconnect is an alias for kick.
-        Lock: To disallow everyone from joining your channel, use \`.v lock\`, or \`.v l\`.
-        Move: To move a user to a new channel, use \`.v move @User channel_id\`, \`.v mo @User 1 @User 2 channel_id\`.
-        Mute: To mute a user, use \`.v mute @User\` or \`.v m @User 1 @User 2\`.
-        Name: To change the name of the channel you are in, use \`.v name New Name\` or \`.v n New Name\`.
-        Undeafen: To undeafen a user, use \`.v undeafen @User\` or \`.v udf @User 1 @User 2\`.
-        Unlock: To allow everyone to join your channel, use \`.v unlock\` or \`.v u\`.
-        Unmute: To unmute a user, use \`.v unmute @User\` or \`.v um @User 1 @User 2\`.
+        Allow: To allow a user or role to join your channel, use \`.vc allow @User\` or \`.vc a @User 1 @User 2\`; permit and p are aliases for allow.
+        Bitrate: To change the bitrate (in kbps) of your channel, use \`.vc bitrate 60\` or \`.vc b 96\`.
+        Deafen: To deafen a user, use \`.vc deafen @User\` or \`.vc df @User 1 @User 2\`.
+        Disallow: To disallow a user or role to join your channel, use \`.vc disallow @User\` or \`.vc d @User 1 @User 2\`.
+        Kick: To kick a user from your channel, use \`.vc kick @User\` or \`.vc k @User 1 @User 2\`; disconnect is an alias for kick.
+        Lock: To disallow everyone from joining your channel, use \`.vc lock\`, or \`.vc l\`.
+        Move: To move a user to a new channel, use \`.vc move @User channel_id\`, \`.vc mv @User 1 @User 2 channel_id\`.
+        Mute: To mute a user, use \`.vc mute @User\` or \`.vc m @User 1 @User 2\`.
+        Name: To change the name of the channel you are in, use \`.vc name New Name\` or \`.vc n New Name\`.
+        Undeafen: To undeafen a user, use \`.vc undeafen @User\` or \`.vc udf @User 1 @User 2\`.
+        Unlock: To allow everyone to join your channel, use \`.vc unlock\` or \`.vc u\`.
+        Unmute: To unmute a user, use \`.vc unmute @User\` or \`.vc um @User 1 @User 2\`.
 				Only members who can manage channels and roles, deafen and move members may use this command.
 			`,
       examples: [
@@ -44,7 +44,7 @@ module.exports = class VoiceControl extends Command {
         ".vc lock",
         ".vc l",
         ".vc move @User 1 696041692205285450",
-        ".vc mo @User 1 @User 2 696041692205285450",
+        ".vc mv @User 1 @User 2 696041692205285450",
         ".vc mute @User",
         ".vc m @User 1 @User 2",
         ".vc name New Name",
@@ -96,7 +96,7 @@ module.exports = class VoiceControl extends Command {
         leftover.shift();
         leftover = leftover.join(" ");
         // Allow: Permit user to join your channel
-        // .v a @ark
+        // .vc a @ark
         if (
           subCommand === "allow" ||
           subCommand === "a" ||
@@ -192,7 +192,7 @@ module.exports = class VoiceControl extends Command {
           }
         }
         // Deafen: Deafen a user in your channel
-        // .v df @ark
+        // .vc df @ark
         else if (subCommand === "deafen" || subCommand === "df") {
           let beforeMessage = ``;
           if (msg.mentions.everyone) {
@@ -227,7 +227,7 @@ module.exports = class VoiceControl extends Command {
           }
         }
         // Disallow: Disallow a user from joining your channel
-        // .v d @ark
+        // .vc d @ark
         else if (subCommand === "disallow" || subCommand === "d") {
           if (msg.mentions.everyone) {
             await msg.member.voice.channel
@@ -289,7 +289,7 @@ module.exports = class VoiceControl extends Command {
           }
         }
         // Kick: Kick a user out of the channel
-        // .v k @ark
+        // .vc k @ark
         else if (
           subCommand === "disconnect" ||
           subCommand === "kick" ||
@@ -344,8 +344,8 @@ module.exports = class VoiceControl extends Command {
             });
         }
         // Move: Move a user to another channel
-        // .v m @ark
-        else if (subCommand === "move" || subCommand === "mo") {
+        // .vc m @ark
+        else if (subCommand === "move" || subCommand === "mv") {
           let beforeMessage = ``;
           if (msg.mentions.everyone) {
             beforeMessage += `\nThe bot will not move everyone`;
@@ -386,7 +386,7 @@ module.exports = class VoiceControl extends Command {
           }
         }
         // Mute: Mute a user in your channel
-        // .v m @ark
+        // .vc m @ark
         else if (subCommand === "mute" || subCommand === "m") {
           let beforeMessage = ``;
           if (msg.mentions.everyone) {
@@ -418,7 +418,7 @@ module.exports = class VoiceControl extends Command {
           }
         }
         // Name: Rename the channel
-        // .v n New Name
+        // .vc n New Name
         else if (subCommand === "name" || subCommand === "n") {
           await msg.member.voice.channel
             .setName(leftover, `${msg.author.id} initiated name command`)
@@ -432,7 +432,7 @@ module.exports = class VoiceControl extends Command {
             });
         }
         // Unlock: Allow everyone to join your channel
-        // .v u
+        // .vc u
         else if (subCommand === "unlock" || subCommand === "u") {
           await msg.member.voice.channel
             .createOverwrite(
@@ -453,7 +453,7 @@ module.exports = class VoiceControl extends Command {
             });
         }
         // Undeafen: Undeafen a user in your channel
-        // .v udf @ark
+        // .vc udf @ark
         else if (subCommand === "undeafen" || subCommand === "udf") {
           let beforeMessage = ``;
           if (msg.mentions.everyone) {
@@ -488,7 +488,7 @@ module.exports = class VoiceControl extends Command {
           }
         }
         // Unmute: Unmute a user in your channel
-        // .v unmute @ark
+        // .vc unmute @ark
         else if (subCommand === "unmute" || subCommand === "um") {
           let beforeMessage = ``;
           if (msg.mentions.everyone) {
