@@ -13,6 +13,7 @@ const client = new Commando.CommandoClient({
 client.registry
   .registerDefaultTypes()
   .registerGroups([
+    ["fun", "Fun"],
     ["moderation", "Moderation"],
     ["roles", "Roles"],
     ["voice", "Voice"]
